@@ -63,11 +63,12 @@
           // No need to change anything ABOVE this line ^
 
           return(
+            <> 
             <h1>Draw a Card</h1>
-            <button onClick={}>
+            <button onClick={this.drawCard}>
               Click to Draw a Card
             </button>
-            <button onClick={shuffle}>
+            <button onClick={this.shuffle}>
               Return Cards and Shuffle Deck
             </button>
             <div style={handStyles}>
@@ -79,6 +80,7 @@
                 )
               })}
             </div>
+            </>
           )
         }
       }
@@ -89,3 +91,7 @@
     </script>
   </body>
 </html>
+
+<!-- Added fragments in return to wrap JSX -->
+<!-- Added this.drawCard to "Click to Draw a Card" button -->
+<!-- Added this.shuffle to "Return Cards and Shuffle Deck" button -->
