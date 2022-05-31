@@ -77,3 +77,5 @@ Updating, and Unmounting phase
 
 5. Ruby hashes:
   Hash in Ruby is a collection of unique keys and values. Hash is similar to an Array, except indexing is done with the keys of an object type. When iterating thorugh hashes the returning keys and values will not be in the insertion order.
+
+  <!--  -->
